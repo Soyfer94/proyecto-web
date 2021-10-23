@@ -13,7 +13,8 @@ body{
 
 .cabecera {
     
-    background-color: blue;
+    background-image:url(imagenes/ciudad.jpg);
+    background-position:center;
     padding-bottom: 8px;
     display: flex;
     justify-content: space-around;
@@ -97,7 +98,6 @@ ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    /* float: left; */
     justify-content: space-evenly;
     background-color: #f4f4f4;
     max-width: 670px;
@@ -122,10 +122,14 @@ ul li a:hover {
 .agregado .map {
     justify-content: flex-start;
     width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 aside {
     text-align: center;
+    margin: 15px;
+    margin-top: 10px;
 }
 
 
