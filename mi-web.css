@@ -79,13 +79,14 @@ ul li a:hover {
    
 }
 
-----------------------------------------------
+/* ---------------------------------------------- */
 
   .contenedor{
       
     /* display: grid; */
     background-color: hotpink; 
     margin-bottom: 40px;
+    display: flex;
   }
     
  
@@ -98,7 +99,7 @@ ul li a:hover {
     text-align: center;
     /* float: left; */
     justify-content: space-evenly;
-    background-color: greenyellow;
+    background-color: #f4f4f4;
     max-width: 670px;
     width: 100%;
     margin: 15px;
@@ -113,13 +114,8 @@ ul li a:hover {
     width: 30%;
     margin: 15px;
     text-align: center;
-    /* float: right; */
-    /* text-align: center;
-    overflow: hidden;
-    justify-content: flex-start;
-    display: flex;
-  
-    flex-wrap: wrap */
+    border-radius: 30px;
+   
     
 }
 
@@ -167,4 +163,51 @@ PIE DE PAGINA
 footer {
     background-color:mediumturquoise;
     color: black;
+    display: flex;
+    text-decoration: none;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.contacto{
+    background-color: burlywood;
+    max-width: 25%;
+    text-align: center;
+}
+
+.inversiones {
+    background-color: crimson;
+    max-width: 24%;
+    text-align: center;
+}
+
+
+.redes{
+    background-color: dodgerblue;
+    width: 25%;
+    text-align: center;
+}
+
+.redes a {
+    margin: 4px;
+}
+.busqueda{
+    text-align: center;
+    background-color: goldenrod;
+    list-style: none;
+    text-decoration: none;
+    width: 26%;
+}
+.busqueda li {
+    
+    text-align: left;
+    list-style: none;
+    text-decoration: none;
+    margin: 2px;
+    padding-left: 30px
+        
+}
+
+.busqueda a {
+    text-decoration: none;
 }
