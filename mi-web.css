@@ -5,32 +5,38 @@
 }
 
 body{
-    
+    /* Acá coloque la imagen de fondo con  */
+    background-image: url(imagenes/fondo.png);
     font-family: Arial, Helvetica, sans-serif;
-   
 }
 
+/* Aca comienza ca cabezara donde contiene el boton en fomra de edificio de la "home" y el logo principal de la empresa*/
 
 .cabecera {
-    
-    background-image:url(imagenes/ciudad.jpg);
+    /* background-image:url(imagenes/img-login2.jpg); */
+    background-color: #ffffff;
     background-position:center;
-    padding-bottom: 8px;
+    margin: -5px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-  
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
+/* Aca comeinza el menu el cual por el momento el unico boton con funcion es el boton de "ingresar" */
+
 .destacado {
-    background-color: brown;
+    background-image: url(imagenes/barra-menu.png);
     padding: 0;
 }
 
 .des-menu {
     width: max-content;
-    background-color: chartreuse;
-    padding: 25px;  
+    /* background-color: chartreuse; */
+    background-color: transparent;
+    
+    padding: 25px;
     margin: 0 20% 0 20%;
     margin-bottom: 5PX;
     margin-top: 5px;
@@ -40,12 +46,11 @@ body{
     justify-content: space-between;
     list-style: none;
     border: 2px solid #181739;
-
-
 }
 
+/* Los botones en naranja todavia no tienen funcionalidad */
 .des-nav_link{
-    
+
     background-color:#fd9726;
     padding: 10px 15px 10px 15px;
     border-radius: 5px;
@@ -57,7 +62,7 @@ body{
     font-weight: bold;
     text-align: center;
 }
-
+ /* Este boton el de ingresar es el unico con funcion */
 .ingresar {
     background-color: gold;
     padding: 10px 15px 10px 15px;
@@ -72,29 +77,30 @@ body{
 }
 
 
-
+/* Con el :hover logre darles un efecto de iluminacion y borde negro a los botones*/
 ul li a:hover {
     box-shadow: 0px 0px 5px black;
     border: 1px solid whitesmoke;
     transition: 0.1s;
-   
 }
 
 /* ---------------------------------------------- */
 
+/* Contenedor principal*/
+
   .contenedor{
-      
+
     /* display: grid; */
-    background-color: hotpink; 
+    /* background-color: hotpink;  */
     margin-bottom: 40px;
     display: flex;
   }
-    
- 
 
+
+/*  El contenedor "producto" le de orden a las cartas y le da un posicionamiento dentro del cuerpo principal de la pagina*/
 
 .producto {
-   
+
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -103,11 +109,14 @@ ul li a:hover {
     max-width: 670px;
     width: 100%;
     margin: 15px;
-         
+background-color: transparent;
     /* display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px; */
 }
+
+
+/* El contenedor "agregado" contiene un mapa y puede contener informacion general sin definir aún*/
 
 .agregado {
     background-color: palegreen;
@@ -115,10 +124,9 @@ ul li a:hover {
     margin: 15px;
     text-align: center;
     border-radius: 30px;
-   
-    
 }
 
+/* Aca puse el mapa pero sin ninguna marca */
 .agregado .map {
     justify-content: flex-start;
     width: 100%;
@@ -126,6 +134,7 @@ ul li a:hover {
     margin-bottom: 40px;
 }
 
+/* Aca alinie la informacion adicianal */
 aside {
     text-align: center;
     margin: 15px;
@@ -156,7 +165,7 @@ CARTA
 .card:hover{
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-    
+
 }
 
 /* ------------------------
@@ -165,7 +174,7 @@ PIE DE PAGINA
 
 
 footer {
-    background-color:mediumturquoise;
+    /* background-color:mediumturquoise; */
     color: black;
     display: flex;
     text-decoration: none;
@@ -203,13 +212,13 @@ footer {
     width: 26%;
 }
 .busqueda li {
-    
+
     text-align: left;
     list-style: none;
     text-decoration: none;
     margin: 2px;
     padding-left: 30px
-        
+
 }
 
 .busqueda a {
