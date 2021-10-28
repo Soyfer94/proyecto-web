@@ -86,101 +86,24 @@ ul li a:hover {
 
 /* ---------------------------------------------- */
 
-/* Contenedor principal*/
-
-  .contenedor{
-
-    /* display: grid; */
-    /* background-color: hotpink;  */
-    margin-bottom: 40px;
-    display: flex;
-  }
 
 
-/*  El contenedor "producto" le de orden a las cartas y le da un posicionamiento dentro del cuerpo principal de la pagina*/
-
-.producto {
-
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: space-evenly;
-    background-color: #f4f4f4;
-    max-width: 670px;
-    width: 100%;
-    margin: 15px;
-background-color: transparent;
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px; */
-}
 
 
-/* El contenedor "agregado" contiene un mapa y puede contener informacion general sin definir aún*/
-
-.agregado {
-    background-color: palegreen;
-    width: 30%;
-    margin: 15px;
-    text-align: center;
-    border-radius: 30px;
-}
-
-/* Aca puse el mapa pero sin ninguna marca */
-.agregado .map {
-    justify-content: flex-start;
-    width: 100%;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-/* Aca alinie la informacion adicianal */
-aside {
-    text-align: center;
-    margin: 15px;
-    margin-top: 10px;
-}
 
 
-/* ----------------------------------
-CARTA
---------------------------- */
 
 
-.card {
-    text-align: center;
-    border: 1px solid black;
-    width: 230px;
-    border-radius: 30px;
-    padding-bottom: 10px;
-    transition: all 0.25s;
-    cursor:pointer;
-    margin: 20px;
-}
 
-.card img{
-    max-width: 100%;
-    border-radius: 30px 30px 0 0;
-}
-.card:hover{
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 
-}
 
-.card p {
-    margin-bottom: 10px;
-}
 
-.card a{
-    background-color: #0984e3;
-    margin-top: 15px;
-    padding: 8px;
-    border-radius: 30px;
-    text-decoration: none;
-    color: beige;
-    
-}
+
+
+
+
+
+
 
 /* ------------------------
 PIE DE PAGINA
@@ -241,8 +164,3 @@ footer {
 .busqueda a {
     text-decoration: none;
 }
-
-
-/* ----------------------
-Login
---------------------- */
