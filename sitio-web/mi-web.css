@@ -6,7 +6,7 @@
 
 body{
     /* Acá coloque la imagen de fondo con  */
-    background-image: url(imagenes/fondo.png);
+    background-image: url(..//imagenes/fondo.png);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -27,7 +27,7 @@ body{
 /* Aca comeinza el menu el cual por el momento el unico boton con funcion es el boton de "ingresar" */
 
 .destacado {
-    background-image: url(imagenes/barra-menu.png);
+    background-image: url(..//imagenes/barra-menu.png);
     padding: 0;
 }
 
