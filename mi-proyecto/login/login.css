@@ -21,7 +21,7 @@ body{
 	height: auto;
 	background-image: url(imagenes/img-login.jpg);
 	background-size: cover;
-	-webkit-filter: blur(5px);
+	filter: blur(5px);
 	z-index: 0;
 }
 
@@ -55,7 +55,7 @@ body{
 }
 
 .header div span{
-	color: #5379fa !important;
+	color:#2d3436!important;
 }
 
 .login{
