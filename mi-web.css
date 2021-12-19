@@ -148,6 +148,9 @@ CARTA
 
 
 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     text-align: center;
     border: 1px solid black;
     width: 230px;
@@ -156,6 +159,7 @@ CARTA
     transition: all 0.25s;
     cursor:pointer;
     margin: 20px;
+
 }
 
 .card img{
