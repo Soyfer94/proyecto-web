@@ -35,7 +35,7 @@ body{
     width: max;
     /* background-color: chartreuse; */
     background-color: transparent;
-    
+
     padding: 25px;
     margin: 0 20% 0 20%;
     margin-bottom: 5PX;
@@ -87,22 +87,33 @@ ul li a:hover {
 /* ---------------------------------------------- */
 
 /* Contenedor principal*/
-
-  .contenedor{
-
-    /* display: grid; */
-    /* background-color: hotpink;  */
-    margin-bottom: 40px;
+main {
     display: flex;
-    justify-content: space-around
-  }
+    flex-direction: column;
+    margin: 10px;
+}
+
+main p {
+    margin: 10px;
+    padding: 10px;
+}
+  /* .contenedor { */
+      
+      
+
+    /* margin-bottom: 40px;
+    display:
+    justify-content: space-around */
+    /* background-color: hotpink;  */
+
+ 
 
 
 /*  El contenedor "producto" le de orden a las cartas y le da un posicionamiento dentro del cuerpo principal de la pagina*/
 
 .producto {
 
-    display: flex;
+     display: flex;
     flex-wrap: wrap;
     text-align: center;
     justify-content: space-evenly;
@@ -118,6 +129,13 @@ background-color: transparent;
 
 
 
+.turismo {
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.4em;
+    margin-bottom: 10px;
+}
 /* ------------------------
 PIE DE PAGINA
 ----------------------- */
@@ -128,7 +146,7 @@ footer {
     color: black;
     display: flex;
     text-decoration: none;
-  
+
     padding-top: 20px;
   background-color: beige;
 }
@@ -162,7 +180,7 @@ footer {
     list-style: none;
     text-decoration: none;
     width: 26%;
- 
+
 }
 .busqueda li {
 
