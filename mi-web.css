@@ -86,6 +86,17 @@ ul li a:hover {
 
 /* ---------------------------------------------- */
 
+ .sol {
+     width: fit-content;
+    
+     display: flex;
+    transition: all 4s;
+}
+.sol:hover {
+    transform: rotate(1turn);
+}
+
+
 /* Contenedor principal*/
 
   .contenedor{
