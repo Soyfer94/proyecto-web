@@ -27,63 +27,56 @@ body{
 
 /* Aca comeinza el menu el cual por el momento el unico boton con funcion es el boton de "ingresar" */
 
-.destacado {
-    background-image: url(..//imagenes/barra-menu.png);
-    padding: 0;
-}
-
-.des-menu {
-    width: max-content;
-    /* background-color: chartreuse; */
-    background-color: transparent;
-    
-    padding: 25px;
-    margin: 0 20% 0 20%;
-    margin-bottom: 5PX;
-    margin-top: 5px;
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+/* ----PRUEBA MENU---- */
+nav ul {
+    background: #164884;
+    text-align: center;
     list-style: none;
-    border: 2px solid #181739;
-}
-
-/* Los botones en naranja todavia no tienen funcionalidad */
-.des-nav_link{
-
-    background-color:#fd9726;
-    padding: 10px 15px 10px 15px;
-    border-radius: 5px;
-    border-right: 1px solid black;
-    flex-grow: 1;
-    border: 1px solid #181739;
+    overflow: hidden;
+  
+  }
+  
+  ul li {
+    display: inline-block;
+    padding: 20px;
+    transition: all ease-in-out 250ms;
+  }
+  
+  ul li:hover {
+    background: #112d4e;
+  }
+  
+  ul li a {
+    color: white;
     text-decoration: none;
-    color: #220e48;
-    font-weight: bold;
-    text-align: center;
-}
- /* Este boton el de ingresar es el unico con funcion */
-.ingresar {
-    background-color: gold;
-    padding: 10px 15px 10px 15px;
-    border-radius: 5px;
-    border-right: none;
-    flex-grow: 1;
-    border: 1px solid #181739;
-    text-decoration: none;
-    color: #220e48;
-    font-weight: bold;
-    text-align: center;
-}
-
-
-/* Con el :hover logre darles un efecto de iluminacion y borde negro a los botones*/
-ul li a:hover {
-    box-shadow: 0px 0px 5px black;
-    border: 1px solid whitesmoke;
-    transition: 0.1s;
-}
+  }
+  
+  .hide {
+    padding: 16px;
+    font-size: 22px;
+    background: #112d4e;
+    color: white;
+    cursor: pointer;
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    ul li {
+      width: 100%;
+      padding: 15px;
+      text-align: left;
+    }
+  
+    .hide {
+      display: block;
+    }
+  
+    nav ul {
+    display: none;
+  
+    }
+  }
+/* -----FIN PRUEBA---- */
 
 /* ---------------------------------------------- */
 

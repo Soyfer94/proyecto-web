@@ -16,38 +16,34 @@
         <img src="..//imagenes/Lauria.png" alt="logo de inmobiliaria">
     </div>
     <!-- ACA comienza mi MENU-->
-    <div class="destacado"> 
-        
-        
-        <ul class="des-menu">
-            <li>
-                <a href="quienes.html" class="des-nav_link">Quienes somos</a>
-            </li>
-                    <div class="palito">|</div>
-                    <li>
-                        <a href="#" class="des-nav_link">Que hacemos</a>
-                    </li>
-                    <div class="palito">|</div>
-                    <li>
-                        <a href="#" class="des-nav_link">Contacto</a>
-                </li>
-                     <div class="palito">|</div>  
-                <li>
-                    <a href="#" class="des-nav_link">Registrate</a>
-                </li>
-                   <div class="palito">|</div>
-                <li>
-                    <a href="login.html" class="ingresar">Ingresar</a>
-                </li>
-                
+
+    <!-- ------ PRUEBA MENU---- -->
+    <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="quienes.html">Quienes somos</a></li>
+          <li><a href="#">Que hacemos</a></li>
+          <li><a href="#">Contacto</a></li>
+          <li><a href="login.html">Ingresar</a></li>
         </ul>
-        
-    </div>
+        <div class="hide">
+          <i class="fa fa-bars" aria-hidden="true"></i> Menu
+        </div>
+      </nav>
+      
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script>
+          $(".hide").on('click', function() {
+            $("nav ul").toggle('slow');
+          })
+        </script>
+
+    <!-- ------ FIN PRUEBA ---- -->
+    
 </header>
         <!-- Termina menu -->
-<!-- <header></header> -->
     <!-- -------------------------------------------------- -->
-<!-- <main></main> -->
+
 <main>
     <h2 id="ciudad"> </h2>
 
