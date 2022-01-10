@@ -112,7 +112,7 @@ main p {
 /*  El contenedor "producto" le de orden a las cartas y le da un posicionamiento dentro del cuerpo principal de la pagina*/
 
 .producto {
-
+    
      display: flex;
     flex-wrap: wrap;
     text-align: center;
