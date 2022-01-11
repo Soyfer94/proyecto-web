@@ -5,6 +5,7 @@ Pautas opcionales.
 3. Llamada a una API externa (Open Weather).
 4. “Suscribite al newsletter”.
 5. Sitio subido a Netlify.
+6. Muy responsive.
 
 Netlify: 
 https://proyecto-web.netlify.app

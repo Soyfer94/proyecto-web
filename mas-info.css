@@ -14,7 +14,6 @@ body{
 /* Aca comienza ca cabezara donde contiene el boton en fomra de edificio de la "home" y el logo principal de la empresa*/
 
 .cabecera {
-    /* background-image:url(imagenes/img-login2.jpg); */
     background-color: #ffffff;
     background-position:center;
     margin: -5px;
@@ -25,9 +24,8 @@ body{
     padding-bottom: 5px;
 }
 
-/* Aca comeinza el menu el cual por el momento el unico boton con funcion es el boton de "ingresar" */
+/* ----COMIENZA MENU---- */
 
-/* ----PRUEBA MENU---- */
 nav ul {
     background: #164884;
     text-align: center;
@@ -76,12 +74,10 @@ nav ul {
   
     }
   }
-/* -----FIN PRUEBA---- */
+/* -----FIN MENU---- */
 
-/* ---------------------------------------------- */
-
+/* ----------COMIENZO DEL MAIN------------- */
 .title{
-    /* background-color: darksalmon; */
     display: inline-block;
     margin: 20px;
     padding: 5px;
@@ -94,7 +90,6 @@ nav ul {
 }
 
 .ficha{
-    /* background-color: deeppink; */
     width: 100%;
     display: flex;
 }
@@ -130,51 +125,31 @@ nav ul {
     padding: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* -------- FIN DE MAIN------ */
 
 /* ------------------------
 PIE DE PAGINA
 ----------------------- */
-
-
 footer {
-    /* background-color:mediumturquoise; */
     color: black;
     display: flex;
     text-decoration: none;
-  
     padding-top: 20px;
-  background-color: beige;
+    background-color: beige;
 }
 
 .contacto{
-    /* background-color: burlywood; */
     max-width: 25%;
     text-align: center;
 }
 
 .inversiones {
-    /* background-color: crimson; */
     max-width: 24%;
     margin-top: 45px;
     text-align: center;
 }
 
-
 .redes{
-    /* background-color: dodgerblue; */
     width: 25%;
     text-align: center;
 }
@@ -182,24 +157,23 @@ footer {
 .redes a {
     margin: 4px;
 }
+
 .busqueda{
     text-align: center;
-    /* background-color: goldenrod; */
     list-style: none;
     text-decoration: none;
     width: 26%;
- 
-}
-.busqueda li {
+ }
 
+.busqueda li {
     text-align: left;
     list-style: none;
     text-decoration: none;
     margin: 2px;
     padding-left: 30px
-
 }
 
 .busqueda a {
+    color: orange;
     text-decoration: none;
 }

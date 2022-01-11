@@ -1,9 +1,7 @@
 // clave: 0ed7ad2b11d4d18324891a793e66d94
 
-// https://api.openweathermap.org/data/2.5/weather?q=Villa%20Carlos%20Paz&appid=0ed7ad2b11d4d18324891a793e66d941&units=metric&lang=es
-
 async function fetchClima () {
-    let response = await fetch('https://api.openweathermap.org/data/2.5/weather?q=Villa%20Carlos%20Paz&appid=0ed7ad2b11d4d18324891a793e66d941&units=metric&lang=es');
+    let response = await fetch('https://api.openweathermap.org/data/2.5/weather?q=Tucuman&appid=0ed7ad2b11d4d18324891a793e66d941&units=metric&lang=es');
 
     if (response.ok === false) {
         throw new Error(response.status);
@@ -15,7 +13,7 @@ async function fetchClima () {
 }
 
 fetchClima().then(clima => {
-    //Recien ahora tengo los datos
+
     console.log(clima);
 
 //Mosrar el nombre de la ciudad en h2
