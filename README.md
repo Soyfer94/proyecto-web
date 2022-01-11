@@ -16,5 +16,7 @@ https://github.com/Soyfer94/proyecto-web
 Mi E-mail:
 acostafernandoger@gmail.com
 
+acostafernando94@hotmail.com
+
 
 Gracias Eva por ser la base de mi mundo en la programacion, seguro me sigo metiendo mucho mas, ya estoy buscando ofertas academicas.
