@@ -5,7 +5,6 @@
 }
 
 body{
-    /* Acá coloque la imagen de fondo con  */
     background-image: url(..//imagenes/fondo.png);
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -26,13 +25,12 @@ body{
 
 /* Aca comeinza el menu el cual por el momento el unico boton con funcion es el boton de "ingresar" */
 
-/* ----PRUEBA MENU---- */
+/* ----MENU---- */
 nav ul {
     background: #164884;
     text-align: center;
     list-style: none;
     overflow: hidden;
-  
   }
   
   ul li {
@@ -72,42 +70,33 @@ nav ul {
   
     nav ul {
     display: none;
-  
     }
   }
-/* -----FIN PRUEBA---- */
+/* -----FIN MENU---- */
 
-
-
-/* ---------------------------------------------- */
+/* -----------COMIENZO DE MAIN------------------ */
 
  .sol {
      width: fit-content;
-    
      display: flex;
-    transition: all 4s;
+     transition: all 4s;
 }
+
 .sol:hover {
     transform: rotate(1turn);
 }
 
-
 /* Contenedor principal*/
 
   .contenedor{
-
-    /* display: grid; */
-    /* background-color: hotpink;  */
     margin-bottom: 40px;
     display: flex;
     justify-content: space-around
   }
 
-
 /*  El contenedor "producto" le de orden a las cartas y le da un posicionamiento dentro del cuerpo principal de la pagina*/
 
 .producto {
-
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -116,12 +105,8 @@ nav ul {
     max-width: 670px;
     width: 100%;
     margin: 15px;
-background-color: transparent;
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px; */
+    background-color: transparent;
 }
-
 
 /* El contenedor "agregado" contiene un mapa y puede contener informacion general sin definir aún*/
 
@@ -144,17 +129,16 @@ background-color: transparent;
 }
 
 /* Aca alinee la informacion adicianal */
+
 aside {
     text-align: center;
     margin: 15px;
     margin-top: 10px;
 }
 
-
 /* ----------------------------------
 CARTA
 --------------------------- */
-
 
 .card {
     display: flex;
@@ -168,7 +152,6 @@ CARTA
     transition: all 0.25s;
     cursor:pointer;
     margin: 20px;
-
 }
 
 .card img{
@@ -178,7 +161,6 @@ CARTA
 .card:hover{
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-
 }
 
 .card p {
@@ -192,40 +174,34 @@ CARTA
     border-radius: 30px;
     text-decoration: none;
     color: beige;
-    
 }
+
+/* ------FIN DE MAIN----- */
 
 /* ------------------------
 PIE DE PAGINA
 ----------------------- */
 
-
 footer {
-    /* background-color:mediumturquoise; */
     color: black;
     display: flex;
     text-decoration: none;
-  
     padding-top: 20px;
-  background-color: beige;
+    background-color: beige;
 }
 
 .contacto{
-    /* background-color: burlywood; */
     max-width: 25%;
     text-align: center;
 }
 
 .inversiones {
-    /* background-color: crimson; */
     max-width: 24%;
     margin-top: 45px;
     text-align: center;
 }
 
-
 .redes{
-    /* background-color: dodgerblue; */
     width: 25%;
     text-align: center;
 }
@@ -235,28 +211,20 @@ footer {
 }
 .busqueda{
     text-align: center;
-    /* background-color: goldenrod; */
     list-style: none;
     text-decoration: none;
     width: 26%;
- 
 }
-.busqueda li {
-    
+.busqueda li {  
     text-align: left;
     list-style: none;
     text-decoration: none;
     margin: 2px;
     padding-left: 30px
-
 }
 
 .busqueda a {
     color: orange;
     text-decoration: none;
 }
-
-
-/* ----------------------
-Login
---------------------- */
+/* ------FIN PIE DE PAGINA-------- */
